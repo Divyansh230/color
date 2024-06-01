@@ -1,0 +1,76 @@
+/* style.css */
+
+/* Reset some default browser styles */
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color and font family for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center; /* Center align text within body */
+}
+
+/* Style the main heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the secondary heading and its span */
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+h2 span {
+    font-weight: normal;
+    color: #777;
+}
+
+/* Container for the buttons */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center align buttons horizontally */
+    gap: 10px; /* Space between buttons */
+}
+
+/* Style the color buttons */
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    transform: scale(1.1);
+}
+
+/* Color styles for each button */
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+    border: 1px solid #ccc; /* Add a border to make the white button visible */
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
